@@ -1,0 +1,232 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+max-width: 100%;
+}
+body{
+  padding: 1rem 3%;
+}
+
+.navbar{
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5rem;
+  align-items: center;
+  border: solid 1px rgb(21, 94, 239);
+  border-radius: 12px;
+  margin: 0.5rem 0;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.home, .about, .hire-me{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.parent a{
+text-decoration: none;
+color: black;
+font-family:  'Halant', serif;
+font-weight: 500;
+}
+.hire-me{
+  border: solid 1px rgb(21, 94, 239);
+  border-radius: 8px;
+  padding: 0.4rem;
+  color: rgb(21, 94, 239);
+}
+.hire-me a{
+  color: rgb(21, 94, 239);
+}
+.intro h2{
+color:  rgb(21, 94, 239);
+font-family: 'Halant', serif;
+font-size: 56px;
+font-weight: 600;
+line-height: 67.2px;
+}
+
+.intro p{
+padding-top: 1.5rem;
+width: 40%;
+}
+
+.see button{
+  background-color: rgb(21, 94, 239);
+  border-radius: 5px;
+  padding: 10px 1rem;
+  margin-top: 1rem;
+  color: white;
+  border: solid 1px rgb(21, 94, 239);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.first{
+  padding: 4rem 2rem;
+}
+
+.intro h3{
+  font-family:'Halant', serif;
+  font-weight: 600;
+  font-size: 24px;
+ line-height: 36px;
+ letter-spacing: 0.5px;
+}
+.content{
+  width: 60%;
+}
+.content p{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+
+.about-me{
+  width: 50%;
+}
+.about-me h2{
+  font-family:'Halant', serif;
+  font-weight:600;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 24px;
+ 
+}
+.about-me p{
+  font-family:'Manrope', sans-serif;
+  font-size: 1.5rem;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: rgb(46, 58, 83);
+}
+.second{
+  margin: 2.5rem 0;
+  padding: 3rem 1.5rem;
+}
+.a{
+  border: solid 1px  rgb(21, 94, 239);
+  padding: 0.35rem;
+  border-right: none;
+}
+.tjp a{
+  width: 70%;
+}
+
+
+
+
+  .progect{
+    width: 50%;
+    position: relative;
+  }
+  .progect h2{
+    font-family:'Halant', serif;
+    font-weight:600;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 24px;
+    position: relative;
+    right: 900px;
+  }
+  .progect p{
+    font-family:'Manrope', sans-serif;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: rgb(46, 58, 83);
+    position: relative;
+    right: 900px;
+  }
+
+  .unit{
+    font-family:'Manrope', sans-serif;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    position: relative;
+    right: 850px;
+  
+    margin: auto;
+
+  }
+
+
+  .tjp c{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+    height: 50px;
+
+  }
+  .third{
+    margin: 2.5rem 0;
+    padding: 3rem 1.5rem;
+  }
+  .c{
+    border: solid 1px  rgb(21, 94, 239);
+    padding-top: 0.35rem;
+    border: none;
+    position: relative;
+    left: 500px;
+  
+
+
+}
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  
+}
+.socials{
+  display: flex;
+  gap: 15px;
+
+}
+.socials img{
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+.bolu p{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+
+}
+
+.foot{
+  border: solid 1px rgb(21, 94, 239);
+  padding: 0.2rem;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+.socials:hover{
+  cursor: pointer;
+}
+.icon b{
+display: flex;
+justify-content: space-between;
+}
